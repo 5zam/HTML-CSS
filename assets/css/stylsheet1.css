@@ -1,0 +1,26 @@
+/* here css file */
+
+/* using . with class name */
+.class1{
+     color: darkblue;
+    font-size: 22px;
+    background-color: #aad7ff;
+}
+
+/* id use # */
+#id1{
+    color: red;
+    font-size: 22px;
+    background-color: #aad7ff;
+}
+
+*{
+    /* All selector */
+    /* for all inside body */
+    /* you can type body */
+}
+
+html{
+    /* html selector */
+    /* for all inside html */
+}

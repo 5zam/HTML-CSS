@@ -1,0 +1,48 @@
+nav {
+  background-color: #1f1f1f;
+    /* This means I can move the element later using top, right, bottom, or left. Also, if I place a child element with position: absolute, it will be positioned relative to this element. */
+    position: relative;
+    padding: 15px 40px;
+    /* inested of up and down come inline*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+/* no change just Zuwina in left and the list in right
+let's move to next element ul */
+/* رجعنا نلون Zuwina */
+    color: #00ffcc;
+}
+    ul {
+  display: flex;
+  /* list لازقات ف بعض */
+  list-style: none;
+    /* remove the dot */
+    gap: 20px;
+    /* space between the elements */
+}
+/* نبدأ بسم الله نلون */
+li {
+  color: white;
+  cursor: pointer; /* pointer يعني لما احط الماوس يطلع شكل اليد */
+}
+/* hover تأثيرات */
+li:hover {
+  /* color: #00ffcc; */
+  background-color: #00ffcc;
+    /* لون الخلفية */
+  color: #1f1f1f;
+    /* لون الخط */
+  border-radius: 5px;
+    /* حركات بركات في الحدود الخلفية */
+    /* padding:5px 10px; */
+    /* padding شوي مساحة لان الخلفية لازقه في الكلام*/
+    /* transition: 0.3s; */
+    /* نعومه وهو يتحرك*/
+    /* ظل تحت العنصر */
+}
+body {
+  background-color: #111;
+  color: white;
+}
+
+
