@@ -8,78 +8,30 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- ✅ Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Limelight&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Limelight&family=Playpen+Sans+Deva:wght@100..800&display=swap" rel="stylesheet">
+
   <title>Portifolio</title>
   <link rel="stylesheet" href="./assets/css/index.css" />
   <style>
    
-
-    /* for all element in html */
-    /* * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #111;
-      color: white;
-    }
-
-    /* Navbar */
-    /* nav {
-      position: sticky;
-      top: 0;
-      background-color: #1f1f1f;
-      padding: 15px 40px;
-      display: flex;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
-      
-    }
-    .navbar2 {
-        display: inline-block;
-    }
-
-    .navbar {
-      font-size: 24px;
-      font-weight: bold;
-      color: #00ffcc;
-      position: relative;
-      padding-left: 10px;
-      
-    }
-
-    ul {
-      list-style: none;
-      display: flex;
-      position: relative;
-      margin-right: 10px;
-      
-    }
-
-    li {
-      padding: 5px 10px;
-      cursor: pointer;
-      position: relative;
-      
-    }
-
-    li:hover {
-      background-color: #00ffcc;
-      color: black;
-      border-radius: 5px;
-    }
-
-    .content {
-      height: 2000px;
-      padding: 20px;
-    }  */
   </style>
 </head>
 <body>
 
-<nav>
-  <div class="navbar">Zuwina</div>
+<nav class="navbar">
+  <div class="brand">
+    <img src="./assets/imgs/zuwina_code.png" alt="Zuwina Logo" class="logo">
+    <!-- <span>Zuwina</span> -->
+  </div>
+
   <ul>
     <li> Home </li>
     <li> Tell Me </li>
@@ -87,11 +39,23 @@
   </ul>
 </nav>
 
+  <section class="about">
+  <div class="container">
+    <div class="who-text">
+      <h2>Welcome to Zuwina’s Digital Playground</h2>
+      <p>I’m a passionate web developer who loves turning ideas into digital experiences. I enjoy working with HTML, CSS, and building clean, responsive designs.</p>
+    </div>
 
-  <div class="content">
-    <h2>Hello evereyone</h2>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam labore ipsa et ratione enim deleniti quaerat nostrum sit impedit, libero eius iure quod a ullam deserunt. Dicta nesciunt autem dolorem?</p>
+    <div class="who-image">
+      <img src="./assets/imgs/main image.jpg" alt="My Picture">
+    </div>
   </div>
+</section>
+
+<div class="skills">
+  <h3>MY SKILLS</h3>
+</div>
+
 
 </body>
 </html>
